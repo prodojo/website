@@ -6,7 +6,7 @@ image: "/images/logo-square-transparent.png"
 draft: false
 ---
 
-At Prodoji we're a passionate team of developers based out of Kochi, Kerala. We love turning aspiring coders into confident software engineers. We know that reading about code is one thing, but the real magic happens when you start building. That's why our teaching style is all about getting your hands dirty with real projects - no more dry theory without practice!
+At Prodojo we're a passionate team of developers based out of Kochi, Kerala. We love turning aspiring coders into confident software engineers. We know that reading about code is one thing, but the real magic happens when you start building. That's why our teaching style is all about getting your hands dirty with real projects - no more dry theory without practice!
 
 We don't just teach coding; we show you how to **think like a developer**. Our students learn the latest tools and frameworks that actual tech companies use, while working on projects that could easily be part of a real dev team's sprint. Whether you're debugging with a buddy or brainstorming solutions in our collaborative workspace, you'll experience what real development feels like.
 

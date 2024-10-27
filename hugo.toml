@@ -4,7 +4,7 @@ baseURL = "https://prodojo.org"
 # disable some pages for now
 disableKinds = ["taxonomy", "term"]
 # Title of your website (required).
-title = "Prodojo | The best software development and coding academy in Kochi - Kerala"
+title = "Prodojo"
 # Your theme name
 theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
@@ -20,6 +20,8 @@ hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/K
 defaultContentLanguage = 'en'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = false
+# Add robots.txt
+enableRobotsTXT = true
 
 ########################### Services #############################
 [services]
