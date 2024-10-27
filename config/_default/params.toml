@@ -1,0 +1,120 @@
+#################### default parameters ############################
+# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
+favicon = "images/favicon.png"
+# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
+logo = "images/logo.png"
+logo_darkmode = "images/logo-darkmode.png"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_height = "32px"
+logo_width = "160px"
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# logo text will only show when logo is missing.
+logo_text = "Prodojo"
+# navbar fixed to top
+navbar_fixed = true
+# theme-mode
+theme_default = "system" # available options [light/dark/system]
+theme_switcher = true 
+# Main Sections
+# mainSections = ["blog"]
+# contact form action
+contact_form_action = "https://airform.io/contact@prodojo.org" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_adsense = "" # example: ca-pub-xxxxxxxxxxxxxxxx
+google_tag_manager = "" # example: G-XXXXXXXXXX
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+# copyright
+copyright = "created with [hugo](https://gohugo.io/), theme used is [hugoplate](https://themes.gohugo.io/themes/hugoplate/)"
+
+# Preloader
+# preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
+[preloader]
+enable = false 
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[navigation_button]
+enable = true
+label = "Contact Us"
+link = "contact"
+
+# search
+# search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
+[search]
+enable = true
+include_sections = ["blog", "team"]
+primary_color = "#F12E2E"
+show_categories = true
+show_description = true
+show_image = true
+show_tags = true
+
+# announcement
+# announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
+[announcement]
+content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+enable = false
+expire_days = 7
+
+# seo meta data for OpenGraph / Twitter Card
+# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
+[metadata]
+# author = "prodojo"
+description = "Elevate your software development skills with our expert-led courses. Join a community of aspiring developers and gain hands-on experience in coding, project management, and emerging technologies. Transform your career with Prodojo!"
+image = "images/og-image.png"
+keywords = [
+  "Software Development Academy Kochi",
+  "Coding Courses Kerala",
+  "Programming Training Kochi",
+  "Web Development Classes Kochi",
+  "Mobile App Development Kerala",
+  "Full Stack Development Kochi",
+  "IT Training Institute Kochi",
+  "Software Engineering Courses Kerala",
+  "Professional Development Kochi",
+  "Online Coding Bootcamp Kochi",
+]
+twitter = "prodojoedu"
+
+# site verifications
+# verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
+[site_verification]
+baidu = "" # Your verification code
+bing = "" # Your verification code
+facebook = "" # Your verification code
+google = "" # Your verification code
+mastodon = "" # Your verification code
+
+# cookies
+# cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
+[cookies]
+button = "I Accept"
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+enable = false
+expire_days = 60
+
+# diagrams
+[mermaid]
+js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
+
+######################## sidebar widgets #########################
+# [widgets]
+# sidebar = ["categories", "tags"]
+
+# google map
+[google_map]
+enable = false
+map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# Subscription
+[subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"

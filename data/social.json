@@ -1,0 +1,29 @@
+{
+  "main": [
+    {
+      "name": "youtube",
+      "icon": "fab fa-youtube",
+      "link": "https://www.youtube.com/@prodojoedu"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/prodojoedu"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-x-twitter",
+      "link": "https://x.com/prodojoedu"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/prodojo"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/company/prodojoedu"
+    }
+  ]
+}
